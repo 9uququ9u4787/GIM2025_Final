@@ -1,6 +1,7 @@
 ﻿#if UNITY_2019_4_OR_NEWER
 using System.IO;
 using UnityEditor;
+using UnityEditor.Hardware;
 using UnityEngine;
 
 namespace FIMSpace.FEditor
@@ -115,7 +116,7 @@ namespace FIMSpace.FEditor
 
         [MenuItem("Assets/Utilities/Sub-Assets/Destroy Sub Asset", true)]
         private static bool DestroySubAssetCheck(MenuCommand menuCommand)
-        { if( Selection.objects.Length == 0 ) return false; return AssetDatabase.IsSubAsset(Selection.objects[0]); }
+        { return AssetDatabase.IsSubAsset(Selection.objects[0]); }
 
         [MenuItem("Assets/Utilities/Sub-Assets/Destroy Sub Asset", false)]
         private static void DestroySubAsset(MenuCommand menuCommand)
