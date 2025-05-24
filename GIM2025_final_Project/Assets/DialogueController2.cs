@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DialogueController2 : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class DialogueController2 : MonoBehaviour
     public GameStageManager gameStageManager;
 
     private Coroutine dialogueCoroutine;
+    public UnityEvent eventFinish;
 
     void Awake()
     {
@@ -48,6 +50,7 @@ public class DialogueController2 : MonoBehaviour
         }
 
         // 말풍선 표시가 끝난 뒤 스테이지 변경
+        eventFinish.Invoke();
         if (gameStageManager != null)
         {
             gameStageManager.currentStage = GameStageManager.GameStage.GoToPostOffice;

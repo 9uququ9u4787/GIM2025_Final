@@ -7,13 +7,12 @@ public class MainNPCController : MonoBehaviour
     [Tooltip("NPC가 이동할 목표 위치입니다.")]
     public Transform moveTarget;
 
-    private NavMeshAgent agent;
-    private Animator animator;
+    public NavMeshAgent agent;
+    public Animator animator;
 
     void Awake()
     {
-        agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
+
 
         if (agent == null)
         {

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class DialogueController : MonoBehaviour
 {
     [Header("?? 말풍선 오브젝트들")]
@@ -15,6 +15,7 @@ public class DialogueController : MonoBehaviour
     public GameStageManager gameStageManager;
 
     private Coroutine dialogueCoroutine;
+    public UnityEvent eventFinish;
 
     void Awake()
     {
@@ -48,6 +49,7 @@ public class DialogueController : MonoBehaviour
         }
 
         // 말풍선 표시가 끝난 뒤 스테이지 변경
+        eventFinish.Invoke();
         if (gameStageManager != null)
         {
             gameStageManager.currentStage = GameStageManager.GameStage.RadioAndFog;

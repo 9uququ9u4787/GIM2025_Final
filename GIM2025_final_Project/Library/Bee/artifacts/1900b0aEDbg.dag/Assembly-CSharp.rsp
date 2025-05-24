@@ -127,6 +127,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
@@ -415,6 +416,8 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.PackageValidationSuite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Rendering.LightTransport.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Rendering.LightTransport.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
@@ -457,12 +460,16 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 -analyzer:"Library/PackageCache/com.unity.dt.app-ui@166eda91cea7/Runtime/SourceGenerators/netstandard2.0/EnumToLowerCase.dll"
+"Assets/BulkAlbedoSetter.cs"
 "Assets/Diabolical Games/Destructible Objects/Scripts/Despawn.cs"
 "Assets/Diabolical Games/Destructible Objects/Scripts/DestructibleObject.cs"
 "Assets/Diabolical Games/Destructible Objects/Scripts/Explosion.cs"
 "Assets/Diabolical Games/Destructible Objects/Scripts/Spawner.cs"
 "Assets/DialogueController.cs"
 "Assets/DialogueController2.cs"
+"Assets/DialogueController3.cs"
+"Assets/DialogueController4.cs"
+"Assets/EVFlashEffect.cs"
 "Assets/FImpossible Creations/Plugins - Animating/Legs Animator/Core/Extra Settings/LegMotionSettingsPreset.cs"
 "Assets/FImpossible Creations/Plugins - Animating/Legs Animator/Core/Extra Settings/LegsA.Controll.cs"
 "Assets/FImpossible Creations/Plugins - Animating/Legs Animator/Core/Extra Settings/LegsA.Events.cs"
@@ -606,7 +613,9 @@
 "Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Inspector.cs"
 "Assets/FImpossible Creations/Shared Tools/GUI Helpers/FGUI_Resources.cs"
 "Assets/GameStageManager.cs"
+"Assets/LightBlinker.cs"
 "Assets/MainNPCController.cs"
+"Assets/PlayerDetector.cs"
 "Assets/PlayerMovement.cs"
 "Assets/PoseFreeze.cs"
 "Assets/RadioController.cs"

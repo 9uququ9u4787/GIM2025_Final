@@ -1,10 +1,11 @@
 using System.Collections;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class RadioController2 : MonoBehaviour
 {
     public GameStageManager gameStageManager;
     public GameObject News2;
+    public UnityEvent eventFinish;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class RadioController2 : MonoBehaviour
         {
             gameStageManager.currentStage = GameStageManager.GameStage.TalkingWithMainNPC2;
             News2.SetActive(false);
+            eventFinish.Invoke();
             Debug.Log("7초 경과 - NPCStage로 변경됨");
         }
         else

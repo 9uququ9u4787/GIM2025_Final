@@ -8,7 +8,8 @@ public class GameStageManager : MonoBehaviour
         TalkingWithMainNPC1,
         RadioAndFog,
         TalkingWithMainNPC2,
-        GoToPostOffice
+        GoToPostOffice,
+        GoToBridge
         // 다음 단계는 여기에
     }
 
