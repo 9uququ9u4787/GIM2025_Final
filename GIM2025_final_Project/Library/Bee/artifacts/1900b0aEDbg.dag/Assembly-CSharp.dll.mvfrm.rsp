@@ -14,6 +14,7 @@ Library\Bee\artifacts\mvdfrm\Unity.Behavior.GraphFramework.ref.dll_149DB3DA3B210
 Library\Bee\artifacts\mvdfrm\Unity.Behavior.Serialization.Editor.ref.dll_1DC0C440543533A6.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Behavior.Serialization.ref.dll_F31BF071211158BB.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Behavior.ref.dll_1FE9BEC58D3ED2E9.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Bindings.OpenImageIO.Editor.ref.dll_9A5CB2D7B0284AA3.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_4F7B73E229D756B2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_A9D47564F0C574EF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Collections.Editor.ref.dll_06943CB002554FFD.mvfrm
@@ -32,6 +33,9 @@ Library\Bee\artifacts\mvdfrm\Unity.Performance.Profile-Analyzer.Editor.ref.dll_7
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_038935ADFCD4A11D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Editor.ref.dll_4A31481CD6C74677.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_A62F0B3B323564C4.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.Base.ref.dll_FCBE19CF0D5CBB60.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.Editor.ref.dll_196917193214703C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.ref.dll_285554614AB1CAC5.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll_F7477446ADE85C14.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Editor.Shared.ref.dll_509C7680761BE5F1.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Editor.ref.dll_5F7FF7A966BF64B8.mvfrm

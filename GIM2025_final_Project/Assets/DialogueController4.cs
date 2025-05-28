@@ -14,6 +14,8 @@ public class DialogueController4 : MonoBehaviour
 
     private Coroutine dialogueCoroutine;
     public UnityEvent eventFinish;
+    [Header("말하는 캐릭터 애니메이터")]
+    public Animator animator;
 
     void Awake()
     {
@@ -36,6 +38,7 @@ public class DialogueController4 : MonoBehaviour
 
     private IEnumerator PlayDialogueSequence()
     {
+        animator.SetBool("Talking", true);
         foreach (GameObject dialogue in dialogueList)
         {
             if (dialogue != null)
@@ -45,6 +48,7 @@ public class DialogueController4 : MonoBehaviour
                 dialogue.SetActive(false);
             }
         }
+        animator.SetBool("Talking", false);
 
         // 말풍선 표시가 끝난 뒤 스테이지 변경
         eventFinish.Invoke();

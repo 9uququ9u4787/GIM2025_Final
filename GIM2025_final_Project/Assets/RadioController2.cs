@@ -6,6 +6,7 @@ public class RadioController2 : MonoBehaviour
     public GameStageManager gameStageManager;
     public GameObject News2;
     public UnityEvent eventFinish;
+    public UnityEvent radioStart;
 
     void Start()
     {
@@ -14,8 +15,16 @@ public class RadioController2 : MonoBehaviour
     public void OnRadioClicked()
     {
         Debug.Log("Radio clicked! NPCStage로 넘어가는 중...");
-        StartCoroutine(ChangeStageAfterDelay(7f));
-        News2.SetActive(true);
+        News2.SetActive(true);               // ? 뉴스 오브젝트 켜기
+        StartCoroutine(HandleRadioClickWithDelay());
+    }
+
+    private IEnumerator HandleRadioClickWithDelay()
+    {
+        yield return new WaitForSeconds(4f); // ? 3초 대기
+        radioStart.Invoke();
+        
+        StartCoroutine(ChangeStageAfterDelay(24.5f)); // ? 다음 단계 이동 대기 시작
     }
 
     private IEnumerator ChangeStageAfterDelay(float delay)

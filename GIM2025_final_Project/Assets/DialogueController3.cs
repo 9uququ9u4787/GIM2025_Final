@@ -23,6 +23,8 @@ public class DialogueController3 : MonoBehaviour
     public UnityEvent eventFinish;
     public UnityEvent eventFinish2;
 
+    [Header("말하는 캐릭터 애니메이터")]
+    public Animator animator;
     void Awake()
     {
         foreach (GameObject dialogue in dialogueList)
@@ -44,6 +46,7 @@ public class DialogueController3 : MonoBehaviour
 
     private IEnumerator PlayDialogueSequence()
     {
+        animator.SetBool("Talking", true);
         foreach (GameObject dialogue in dialogueList)
         {
             if (dialogue != null)
@@ -53,6 +56,7 @@ public class DialogueController3 : MonoBehaviour
                 dialogue.SetActive(false);
             }
         }
+        animator.SetBool("Talking", false);
 
         // 이벤트 호출
         eventFinish.Invoke();

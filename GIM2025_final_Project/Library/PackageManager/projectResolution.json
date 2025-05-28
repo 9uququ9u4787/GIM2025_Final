@@ -168,6 +168,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.recorder@5.1.2": {
+      "name": "com.unity.recorder",
+      "displayName": "Recorder",
+      "resolvedPath": "C:\\Users\\9uquq\\Documents\\GitHub\\GIM2025_Final\\GIM2025_final_Project\\Library\\PackageCache\\com.unity.recorder@979a3db2a781",
+      "fingerprint": "979a3db2a7818d9c4852c886631b01e394d80af0",
+      "editorCompatibility": "2023.1.1f1",
+      "version": "5.1.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.render-pipelines.core@17.0.4": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Core RP Library",
@@ -557,6 +567,16 @@
       "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
       "editorCompatibility": "2019.1.0a1",
       "version": "4.9.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.bindings.openimageio@1.0.0": {
+      "name": "com.unity.bindings.openimageio",
+      "displayName": "OpenImageIO Bindings",
+      "resolvedPath": "C:\\Users\\9uquq\\Documents\\GitHub\\GIM2025_Final\\GIM2025_final_Project\\Library\\PackageCache\\com.unity.bindings.openimageio@3229d2aa5c76",
+      "fingerprint": "3229d2aa5c76c70269dc58c79d5864ec84fa4a74",
+      "editorCompatibility": "2023.1.0a1",
+      "version": "1.0.0",
       "source": "registry",
       "testable": false
     },
