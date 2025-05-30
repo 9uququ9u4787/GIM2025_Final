@@ -640,6 +640,7 @@
 "Assets/PoseFreeze.cs"
 "Assets/RadioController.cs"
 "Assets/RadioController2.cs"
+"Assets/Rocks and Boulders 2/Shaders/RotateGameObject.cs"
 "Assets/SkyboxSwitcher.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"
